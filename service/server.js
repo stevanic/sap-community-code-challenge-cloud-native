@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send(`Your Node.js service is running on port ${PORT}...`);
+  res.send(`Your Node.js service is running on port ${PORT}...Code has been modified`);
 });
 
 app.get('/greeting/:communityID', (req, res) => {
